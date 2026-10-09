@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta initiale-scale=1 , name="viewport" , content="width=device-width">
+  <meta name="description"
+    content="Élan Fitness, salle de sport à Casablanca : musculation, yoga, cardio et boxe fitness avec des coachs diplômés. Réservez votre cours d'essai gratuit.">
+  <title>Contact - Élan Fitness</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@600;700;800&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+  <style>
+    :root {
+      --orange: #ff6b2c;
+      --orange-fonce: #c9400d;
+      --marine: #0f1b2d;
+      --fond: #f7f8fa;
+      --peche: #ffe9e0;
+      --ligne: #e3e6eb;
+      --police: "Segoe UI", Arial, sans-serif;
+    }
+
+    body {
+      font-family: 'Inter', Arial, sans-serif;
+      font-size: 16px;
+      line-height: 1.5;
+
+      color: #1F2937;
+      background-color: #F7F8FA;
+
+
+    }
+
+
+
+
+
+    main {
+      max-width: 760px;
+      margin: auto;
+      padding: 64px 24px 80px;
+    }
+
+    h1 {
+      font-family: 'Poppins', Arial, sans-serif;
+      font-style: italic;
+      font-size: clamp(2.4rem, 7vw, 4rem);
+      letter-spacing: -.03em;
+      line-height: 1;
+      text-align: center;
+      margin: 0 0 12px;
+    }
+
+
+    .carte {
+      background: #fff;
+      border: 1px solid var(--ligne);
+      border-radius: 28px;
+      padding: 44px;
+      box-shadow: 0 24px 48px -32px rgba(15, 27, 45, .35);
+      border-top: 6px solid var(--orange);
+      width: 70%;
+      margin: auto;
+
+    }
+
+    h2 {
+      font-family: 'Poppins', Arial, sans-serif;
+      font-style: italic;
+      color: var(--orange);
+      font-size: 2.2rem;
+      margin: 0 0 24px;
+      letter-spacing: -.02em;
+    }
+
+    .deux {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 50px;
+    }
+
+    .champ {
+      margin-bottom: 20px;
+    }
+
+    label,
+    legend {
+      display: block;
+      font-weight: 700;
+      font-size: .95rem;
+      color: var(--orange-fonce);
+      margin-bottom: 6px;
+      padding: 0;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    textarea {
+      width: 100%;
+      font: inherit;
+      color: var(--marine);
+      background: var(--fond);
+      border: 2px solid var(--ligne);
+      border-radius: 12px;
+      padding: 12px 14px;
+      transition: border-color .15s, background .15s;
+    }
+
+    input:hover,
+    textarea:hover {
+      border-color: #ffc3aa;
+    }
+
+    input:focus-visible,
+    textarea:focus-visible {
+      outline: none;
+      border-color: var(--orange);
+      background: #fff;
+      box-shadow: 0 0 0 4px var(--peche);
+    }
+
+    textarea {
+      min-height: 130px;
+      resize: vertical;
+    }
+
+
+
+
+    button {
+      font: inherit;
+      font-weight: 700;
+      font-size: 1.1rem;
+      width: 50%;
+      color: #fff;
+      background: var(--orange);
+      border: 0;
+      border-radius: 14px;
+      padding: 15px;
+      cursor: pointer;
+      transition: background .15s, transform .15s;
+
+
+    }
+
+    button:hover {
+      background: var(--orange-fonce);
+    }
+
+    button:active {
+      transform: translateY(1px);
+    }
+
+    button:focus-visible {
+      outline: 3px solid var(--marine);
+      outline-offset: 3px;
+    }
+  </style>
+
+
+</head>
+
+<body>
+  <header class="en-tete">
+    <div class="conteneur en-tete-contenu">
+      <a href="index.html" class="logo">Élan Fitness<img src="img/photo.png.png"></a>
+
+      <nav aria-label="Navigation principale">
+        <ul class="menu">
+          <li><a href="index.html" class="lien-actif">Accueil</a></li>
+          <li><a href="a-propos.html">À propos</a></li>
+          <li><a href="programme.html">Programmes</a></li>
+          <li><a href="contact-elan.html" class="lien-actif">contact</a></li>
+        </ul>
+      </nav>
+    </div>
+
+  </header>
+
+
+
+
+
+
+  <main>
+    <section class="carte" id="carte">
+
+      <h2 class="titre-form">log in</h2>
+
+      <form id="formulaire">
+        <div class="deux">
+          <div class="champ">
+            <label for="prenom">enter email</label>
+            <input type="email" id="prenom" required placeholder="@example.com">
+
+          </div>
+          <div class="champ">
+            <label for="nom">password</label>
+            <input type="text" id="2" placeholder="passeword" required>
+
+          </div>
+        </div>
+      </form>
+
+      <button type="submit">Envoyer</button>
+
+  </main>
+  </section>
+  <footer class="pied-de-page">
+    <div class="conteneur">
+
+      <footer class="pied-de-page">
+        <div class="conteneur">
+
+          <div class="pied-haut">
+            <div>
+              <p class="logo logo-clair">Élan Fitness</p>
+              <p class="slogan">Ton énergie, ton rythme.</p>
+            </div>
+
+            <nav aria-label="Navigation du pied de page">
+              <ul class="menu menu-pied">
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="a-propos.html">À propos</a></li>
+                <li><a href="programme.html">Programmes</a></li>
+                <li><a href="contact-elan.html">Contactez-nous</a></li>
+              </ul>
+            </nav>
+          </div>
+
+          <div class="pied-bas">
+            <p>Adresse : 12 rue des Palmiers, 20000 Casablanca</p>
+            <p>&copy; 2026 Élan Fitness — Projet pédagogique fictif</p>
+          </div>
+
+        </div>
+      </footer>
+
+</body>
+
+</html>

@@ -166,21 +166,22 @@ button:focus-visible {
 
 .logo {
   display: flex;
-  align-items: center;
-  font-family: 'Poppins', Arial, sans-serif;
+  align-items: center; 
+    font-family : 'Poppins', Arial, sans-serif;
   font-size: 24px;
   font-weight: 700;
   color: #0F1B2D;
 }
 
-.logo::after {
+/* .logo::after {
   content: "";
-  width: 10px;
-  height: 10px;
-  margin-left: 8px;
+  width: 20px;
+  height: 20px;
+  margin-left: 10px;
   background-color: #FF6B2C;
   border-radius: 50%;
-}
+
+} */
 
 .menu {
   display: flex;
@@ -537,4 +538,7 @@ button:focus-visible {
   margin-top: 24px;
   font-size: 13px;
   color: #94A3B8;
+}
+.logo img{
+  height: 70px;
 }
